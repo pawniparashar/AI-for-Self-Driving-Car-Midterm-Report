@@ -50,4 +50,12 @@ Assignment 2 was focused on how CNN is an upgrade over ANN by comparing both the
 
 _Implementation and Pipeline Development_
 
-The final phase of the midterm focused on building the end-to-end Traffic Sign Classifier using the GTSRB dataset. This involved writing a functional pipeline in Python to load, preprocess, and train a deep learning model.Key Implementation Details:Data Processing: Images were loaded, resized to $30 \times 30$, and converted into NumPy arrays. The data was then normalized to a range of $[0, 1]$ and labels were one-hot encoded for the 43 sign categories.CNN Architecture: A Sequential model was developed using convolutional layers for feature extraction, MaxPooling to reduce dimensionality, and Dropout to prevent overfitting.Training & Evaluation: The model was compiled with the Adam optimizer and trained using categorical cross-entropy. Performance was monitored via accuracy and loss curves to ensure the model generalized well to the test set.
+The final phase of the midterm focused on building the end-to-end Traffic Sign Classifier using the GTSRB dataset. This involved writing a functional pipeline in Python to load, preprocess, and train a deep learning model.
+
+Key Implementation Details:
+
+   Data Processing: Images were loaded, resized to $30 \times 30$, and converted into NumPy arrays. The data was then normalized to a range of $[0, 1]$ and labels were one-hot encoded for the 43 sign categories.
+
+   CNN Architecture: A Sequential model was developed using convolutional layers for feature extraction, MaxPooling to reduce dimensionality, and Dropout to prevent overfitting.
+
+   Training & Evaluation: The model was compiled with the Adam optimizer and trained using categorical cross-entropy. Performance was monitored via accuracy and loss curves to ensure the model generalized well to the test set.
