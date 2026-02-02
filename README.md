@@ -60,4 +60,4 @@ CNN Architecture: A Sequential model was developed using convolutional layers fo
 
 Training & Evaluation: The model was compiled with the Adam optimizer and trained using categorical cross-entropy. Performance was monitored via accuracy and loss curves to ensure the model generalized well to the test set.
 
-Model Test Data Accuracy : 97.07%
+Model Test Data Accuracy : 97.09%
